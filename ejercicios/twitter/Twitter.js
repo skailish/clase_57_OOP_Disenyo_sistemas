@@ -21,7 +21,6 @@ class Twitter
   twittear = (tweet) =>
   {
     this.#tweets.push(tweet)
-    this.#usuarios.push(tweet.handle)
   }
   obtenerTimeline = (usuario) =>
   {
